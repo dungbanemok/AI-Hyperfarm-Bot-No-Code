@@ -1,6 +1,10 @@
 # Implementation Plan
 
-- [ ] 1. Thiết lập cấu trúc dự án và core interfaces
+- [x] 1. Thiết lập cấu trúc dự án và core interfaces
+
+
+
+
   - Tạo cấu trúc thư mục cho project (src/core, src/capture, src/perception, src/action, src/ui, include/, models/, templates/)
   - Định nghĩa các interface và base classes chính (Worker, Layer interfaces)
   - Thiết lập CMake build system với dependencies (Qt, OpenCV, ONNXRuntime, Boost)

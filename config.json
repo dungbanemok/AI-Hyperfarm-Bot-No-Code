@@ -1,0 +1,30 @@
+{
+  "manager": {
+    "max_workers": 50,
+    "checkpoint_interval_sec": 30,
+    "metrics_report_interval_sec": 60
+  },
+  "capture": {
+    "prefer_window_capture": true,
+    "adb_fallback_enabled": true,
+    "buffer_pool_size": 10,
+    "target_fps": 10
+  },
+  "ai": {
+    "model_path": "models/yolov8n.onnx",
+    "use_tensorrt": true,
+    "use_cuda": true,
+    "nms_iou_threshold": 0.45,
+    "confidence_threshold": 0.5
+  },
+  "template_matching": {
+    "method": "TM_CCOEFF_NORMED",
+    "default_confidence_threshold": 0.8
+  },
+  "action": {
+    "adb_connection_pool_size": 5,
+    "adb_retry_count": 3,
+    "adb_retry_delay_ms": 100,
+    "max_action_latency_ms": 200
+  }
+}
