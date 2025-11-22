@@ -11,13 +11,24 @@
   - Tạo file config.json mẫu với các tham số cấu hình
   - _Requirements: 18.4_
 
-- [ ] 2. Implement hệ thống chuẩn hóa tọa độ
+- [x] 2. Implement hệ thống chuẩn hóa tọa độ
+
+
+
+
+
   - Implement struct NormalizedCoord với các phương thức fromActual() và toActual()
   - Implement struct NormalizedRect với các phương thức chuyển đổi
   - Implement class CoordinateNormalizer với các hàm normalize() và denormalize()
   - _Requirements: 7.1, 7.2, 7.3, 7.4, 7.5_
 
-- [ ]* 2.1 Viết unit tests cho coordinate normalization
+- [x] 2.1 Viết unit tests cho coordinate normalization
+
+
+
+
+
+
   - Viết unit tests cho các phép chuyển đổi tọa độ với nhiều độ phân giải khác nhau
   - _Requirements: 7.1, 7.2, 7.3, 7.4, 7.5_
 
